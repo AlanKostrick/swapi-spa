@@ -5,3 +5,30 @@
     margin: 5px;
     padding: 5px;
 }
+
+.nav-list{
+    display: flex;
+}
+
+.nav-list li{
+    background-color: darkcyan;
+    border-radius: 6px;
+    color: #FFF;
+    padding: 5px;
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+.people__container{
+    display: grid;grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.person__tile_container{
+    background-color: #DDD;
+    border-radius: 8px;
+    height: 420px;
+    padding: 5px;
+    text-align: center;
+}
+

@@ -1,5 +1,5 @@
 export default function Footer() {
     return `
-    <small>&copy 2019</small>
+    <small>&copy wcci 2020</small>
     `;
 }
